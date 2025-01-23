@@ -102,21 +102,28 @@ systemd-resolve:x:103:104:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
 messagebus:x:104:105::/nonexistent:/usr/sbin/nologin
 codespace:x:1000:1000::/home/codespace:/bin/bash
 sshd:x:105:65534::/run/sshd:/usr/sbin/nologin__.
-3. Run the command **df** . ***(1 mark)*** __Fill answer here__.
-4. Run the command **du** . ***(1 mark)*** __Fill answer here__.
-5. Run the command **ls** . ***(1 mark)*** __Fill answer here__.
-6. Run the command **ls -asl** . ***(1 mark)*** __Fill answer here__.
-7. Run the command **free -h** . ***(1 mark)*** __Fill answer here__.
-8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __Fill answer here__.
-9. Run the command **top** and type **q** to quit. ***(1 mark)*** __Fill answer here__.
-10. Run the command **uname -a**. ***(1 mark)*** __Fill answer here__.
-11. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
-12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
-13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
-14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
-15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
+3. Run the command **df** . ***(1 mark)***
+__Filesystem     1K-blocks     Used Available Use% Mounted on
+overlay         32847680 10704784  20448796  35% /
+tmpfs              65536        0     65536   0% /dev
+shm                65536        8     65528   1% /dev/shm
+/dev/root       30298176 24799128   5482664  82% /vscode
+/dev/sdb1       46127956 18659100  25093280  43% /tmp
+/dev/loop4      32847680 10704784  20448796  35% /workspaces__.
+5. Run the command **du** . ***(1 mark)*** __Fill answer here__.
+6. Run the command **ls** . ***(1 mark)*** __Fill answer here__.
+7. Run the command **ls -asl** . ***(1 mark)*** __Fill answer here__.
+8. Run the command **free -h** . ***(1 mark)*** __Fill answer here__.
+9. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __Fill answer here__.
+10. Run the command **top** and type **q** to quit. ***(1 mark)*** __Fill answer here__.
+11. Run the command **uname -a**. ***(1 mark)*** __Fill answer here__.
+12. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
+13. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
+14. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
+15. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
+16. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
+17. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
+18. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
 
 ## Running your own container instance.
 
