@@ -94,7 +94,7 @@ Look at the TERMINAL tab. Run the following commands and provide the output here
 12. Run the command **uname -a**. ***(1 mark)*** __Linux codespaces-82cdfd 6.5.0-1025-azure #26~22.04.1-Ubuntu SMP Thu Jul 11 22:33:04 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux__.
 13. What is the available free memory in the system. ***(1 mark)*** __6.1GB__.
 14. What is the available disk space mounted on /workspace. ***(1 mark)*** __20GB__.
-15. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
+15. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __AMD EPYC__.
 16. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
 17. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
 18. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
