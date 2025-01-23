@@ -131,7 +131,7 @@ shm                65536        8     65528   1% /dev/shm
 2072    ./.git
 1972    ./images
 4068    .__.
-6. Run the command **ls** . ***(1 mark)*** __Fill answer here__.
+6. Run the command **ls** . ***(1 mark)*** __README.md  images__.
 7. Run the command **ls -asl** . ***(1 mark)*** __Fill answer here__.
 8. Run the command **free -h** . ***(1 mark)*** __Fill answer here__.
 9. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __Fill answer here__.
