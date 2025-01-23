@@ -56,9 +56,9 @@ Team Mates:
 
 ***Questions:***
 
-1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** __[Ubuntu Linux]__.
-2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** __[2 cores, 8 GB RAM, 32 GB storage__ and __32 cores, 64 GB RAM, 128 GB storage]__.
-3. Why must we commit and sync our current work on source control? ***(1 mark)*** __[Our current work will be uploaded to the github repository and avoid lost when it is not saved into the main repository when you submit your project]__.
+1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** __Ubuntu Linux__.
+2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** __2 cores, 8 GB RAM, 32 GB storage__ and __32 cores, 64 GB RAM, 128 GB storage__.
+3. Why must we commit and sync our current work on source control? ***(1 mark)*** __Our current work will be uploaded to the github repository and avoid lost when it is not saved into the main repository when you submit your project__.
 
 ## Exploring the Terminal
 
@@ -75,7 +75,7 @@ codespace
 
 Look at the TERMINAL tab. Run the following commands and provide the output here. 
 
-1. Run the command **pwd** . ***(1 mark)*** __Fill answer here__.
+1. Run the command **pwd** . ***(1 mark)*** __/workspaces/OSProject__.
 2. Run the command **cat /etc/passwd** . ***(1 mark)*** __Fill answer here__.
 3. Run the command **df** . ***(1 mark)*** __Fill answer here__.
 4. Run the command **du** . ***(1 mark)*** __Fill answer here__.
