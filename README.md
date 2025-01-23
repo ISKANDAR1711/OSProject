@@ -95,7 +95,7 @@ Look at the TERMINAL tab. Run the following commands and provide the output here
 13. What is the available free memory in the system. ***(1 mark)*** __6.1GB__.
 14. What is the available disk space mounted on /workspace. ***(1 mark)*** __20GB__.
 15. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __AMD EPYC__.
-16. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
+16. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __When run the command ls, it only shows the file and directory names which are README.md and images. When run command ls -asl, it provides detailed information, including file size, permissions, owner, and modification time__.
 17. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
 18. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
 19. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
