@@ -80,46 +80,16 @@ Look at the TERMINAL tab. Run the following commands and provide the output here
    __<img width="512" alt="image" src="https://github.com/user-attachments/assets/daa78a7a-d1da-4f1a-a4b9-de9e7e95ac50" />
 __.
 3. Run the command **df** . ***(1 mark)***
-__Filesystem     1K-blocks     Used Available Use% Mounted on
-overlay         32847680 10704784  20448796  35% /
-tmpfs              65536        0     65536   0% /dev
-shm                65536        8     65528   1% /dev/shm
-/dev/root       30298176 24799128   5482664  82% /vscode
-/dev/sdb1       46127956 18659100  25093280  43% /tmp
-/dev/loop4      32847680 10704784  20448796  35% /workspaces__.
-5. Run the command **du** . ***(1 mark)*** __8       ./.git/refs/heads
-4       ./.git/refs/tags
-12      ./.git/refs/remotes/origin
-16      ./.git/refs/remotes
-32      ./.git/refs
-68      ./.git/hooks
-8       ./.git/info
-4       ./.git/lfs/tmp
-8       ./.git/lfs
-4       ./.git/branches
-4       ./.git/objects/info
-1880    ./.git/objects/pack
-1888    ./.git/objects
-8       ./.git/logs/refs/heads
-12      ./.git/logs/refs/remotes/origin
-16      ./.git/logs/refs/remotes
-28      ./.git/logs/refs
-36      ./.git/logs
-2072    ./.git
-1972    ./images
-4068    .__.
+__<img width="347" alt="image" src="https://github.com/user-attachments/assets/ed99b864-ef9b-4537-9040-6b33d8d022c6" />
+__.
+5. Run the command **du** . ***(1 mark)*** __<img width="239" alt="image" src="https://github.com/user-attachments/assets/64cc7b91-efd1-48b1-bd0e-14620fb48e4b" />
+__.
 6. Run the command **ls** . ***(1 mark)*** __README.md  images__.
-7. Run the command **ls -asl** . ***(1 mark)*** __
-   total 36
- 4 drwxrwxrwx+ 4 codespace root  4096 Jan 23 04:30 .
- 4 drwxr-xrwx+ 5 codespace root  4096 Jan 23 04:31 ..
- 4 drwxrwxrwx+ 9 codespace root  4096 Jan 23 04:31 .git
-20 -rw-rw-rw-  1 codespace root 17771 Jan 23 04:30 README.md
- 4 drwxrwxrwx+ 2 codespace root  4096 Jan 23 04:30 images__.
+7. Run the command **ls -asl** . ***(1 mark)*** __<img width="342" alt="image" src="https://github.com/user-attachments/assets/cd4f0e72-4485-419a-be1e-f7ea72f99c63" />
+__.
 9. Run the command **free -h** . ***(1 mark)*** __
-10. __         total        used        free      shared  buff/cache   available
-Mem:          7.7Gi       1.3Gi       136Mi        62Mi       6.3Gi       6.1Gi
-Swap:            0B          0B          0B__.
+<img width="458" alt="image" src="https://github.com/user-attachments/assets/cf79c4a8-5aea-46d9-8a04-1ac540f66136" />
+__.
 11. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __processor       : 0
 vendor_id       : AuthenticAMD
 cpu family      : 25
