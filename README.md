@@ -89,15 +89,16 @@ Look at the TERMINAL tab. Run the following commands and provide the output here
     <img width="458" alt="image" src="https://github.com/user-attachments/assets/cf79c4a8-5aea-46d9-8a04-1ac540f66136" />
 13. Run the command **cat /proc/cpuinfo** . ***(1 mark)***
     <img width="800" alt="image" src="https://github.com/user-attachments/assets/136ebf6a-2b19-46eb-8cef-07db7013db1e" />
-10. Run the command **top** and type **q** to quit. ***(1 mark)*** __Fill answer here__.
-11. Run the command **uname -a**. ***(1 mark)*** __Fill answer here__.
-12. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
-13. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
-14. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
-15. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
-16. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-17. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-18. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
+10. Run the command **top** and type **q** to quit. ***(1 mark)***
+    <img width="653" alt="image" src="https://github.com/user-attachments/assets/ddd8c7eb-2ab2-423a-ba3f-10c5665d1154" />
+12. Run the command **uname -a**. ***(1 mark)*** __Linux codespaces-82cdfd 6.5.0-1025-azure #26~22.04.1-Ubuntu SMP Thu Jul 11 22:33:04 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux__.
+13. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
+14. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
+15. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
+16. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
+17. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
+18. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
+19. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
 
 ## Running your own container instance.
 
