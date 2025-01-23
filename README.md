@@ -110,7 +110,27 @@ shm                65536        8     65528   1% /dev/shm
 /dev/root       30298176 24799128   5482664  82% /vscode
 /dev/sdb1       46127956 18659100  25093280  43% /tmp
 /dev/loop4      32847680 10704784  20448796  35% /workspaces__.
-5. Run the command **du** . ***(1 mark)*** __Fill answer here__.
+5. Run the command **du** . ***(1 mark)*** __8       ./.git/refs/heads
+4       ./.git/refs/tags
+12      ./.git/refs/remotes/origin
+16      ./.git/refs/remotes
+32      ./.git/refs
+68      ./.git/hooks
+8       ./.git/info
+4       ./.git/lfs/tmp
+8       ./.git/lfs
+4       ./.git/branches
+4       ./.git/objects/info
+1880    ./.git/objects/pack
+1888    ./.git/objects
+8       ./.git/logs/refs/heads
+12      ./.git/logs/refs/remotes/origin
+16      ./.git/logs/refs/remotes
+28      ./.git/logs/refs
+36      ./.git/logs
+2072    ./.git
+1972    ./images
+4068    .__.
 6. Run the command **ls** . ***(1 mark)*** __Fill answer here__.
 7. Run the command **ls -asl** . ***(1 mark)*** __Fill answer here__.
 8. Run the command **free -h** . ***(1 mark)*** __Fill answer here__.
