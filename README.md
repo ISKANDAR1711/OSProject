@@ -138,7 +138,9 @@ shm                65536        8     65528   1% /dev/shm
  4 drwxrwxrwx+ 9 codespace root  4096 Jan 23 04:31 .git
 20 -rw-rw-rw-  1 codespace root 17771 Jan 23 04:30 README.md
  4 drwxrwxrwx+ 2 codespace root  4096 Jan 23 04:30 images__.
-8. Run the command **free -h** . ***(1 mark)*** __Fill answer here__.
+8. Run the command **free -h** . ***(1 mark)*** __              total        used        free      shared  buff/cache   available
+Mem:          7.7Gi       1.3Gi       136Mi        62Mi       6.3Gi       6.1Gi
+Swap:            0B          0B          0B__.
 9. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __Fill answer here__.
 10. Run the command **top** and type **q** to quit. ***(1 mark)*** __Fill answer here__.
 11. Run the command **uname -a**. ***(1 mark)*** __Fill answer here__.
