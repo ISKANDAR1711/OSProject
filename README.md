@@ -98,7 +98,7 @@ Look at the TERMINAL tab. Run the following commands and provide the output here
 16. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __When run the command ls, it only shows the file and directory names which are README.md and images. When run command ls -asl, it provides detailed information, including file size, permissions, owner, and modification time__.
 17. What is the TLB size of the Virtual CPU. ***(1 mark)*** __2560 4K Pages__.
 18. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __3189.080 MHz__.
-19. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __The process consuming the most CPU is node with 1.0% CPU usage.__.
+19. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __The process consuming the most CPU is node with 1.0% CPU usage__.
 
 ## Running your own container instance.
 
