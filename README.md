@@ -185,8 +185,7 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 sudo chown -R codespace:codespace myroot
 
 ```
-*** __<img width="363" alt="image" src="https://github.com/user-attachments/assets/a63347c5-cb77-46c1-b53d-f54e9103da9d" />
-__.***
+<img width="363" alt="image" src="https://github.com/user-attachments/assets/a63347c5-cb77-46c1-b53d-f54e9103da9d" />
 
 ## You are on your own, create your own static webpage
 
