@@ -249,8 +249,9 @@ docker exec c1 ping c2
 ```
 ***Questions:***
 
-1. Are you able to ping? Show your output . ***(1 mark)*** __Fill answer here__.
-2. What is different from the previous ping in the section above? ***(1 mark)*** __Fill answer here__.
+1. Are you able to ping? Show your output . ***(1 mark)*** <img width="326" alt="image" src="https://github.com/user-attachments/assets/31d97ede-d70a-40d9-a8da-297cb8959403" />
+
+2. What is different from the previous ping in the section above? ***(1 mark)*** __Previously, the ping failed because c1 and c2 were on separate networks (bluenet and rednet). Now, the ping succeeds because both containers are connected to a shared network (bridgenet).__.
 
 ## Intermediate Level (10 marks bonus)
 
@@ -393,9 +394,32 @@ You have now set up a Node.js application in a Docker container on nodejsnet net
 
 ***Questions:***
 
-1. What is the output of step 5 above, explain the error? ***(1 mark)*** __Fill answer here__.
-2. Show the instruction needed to make this work. ***(1 mark)*** __Fill answer here__.
+1. What is the output of step 5 above, explain the error? ***(1 mark)*** __curl: (7) Failed to connect to localhost port 3000: Connection refused__. __This error occurs because the Node.js container is running on a separate network (nodejsnet), and it cannot directly access the MySQL container running on the mysqlnet network. The two networks (mysqlnet and nodejsnet) are isolated by default, and communication between containers on different networks is not possible unless you explicitly connect them__.
+2. Show the instruction needed to make this work. ***(1 mark)***
+   __Step 1: Create a bridge network (common network)__.
+   docker network create bridgenet
 
+   __Step 2: Connect the Node.js and MySQL containers to the common network__.
+   docker network connect bridgenet <nodejs-container-name>
+   docker network connect bridgenet <mysql-container-name>
+
+   __Replace <nodejs-container-name> with the actual name of your Node.js container (e.g., nodejs-app) and <mysql-container-name> with the name of your MySQL container (e.g., mysql-container).__
+
+   __Step 3: Restart the containers__.
+
+   __You may need to restart the containers after connecting them to the common network to ensure the changes take effect:__
+  docker restart <nodejs-container-name>
+  docker restart <mysql-container-name>
+
+  __After connecting both containers to the same network, they should be able to communicate with each other. You can now curl the Node.js app and it should be able to query the MySQL database.__
+
+  __Step 4: Test the setup__.
+
+  __Now you can test the Node.js application by running:__
+
+  curl http://localhost:3000/random
+
+  __It should return a random row from the mytable in MySQL, as expected.__
 
 
 ## What to submit
