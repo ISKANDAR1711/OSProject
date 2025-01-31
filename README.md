@@ -396,7 +396,7 @@ You have now set up a Node.js application in a Docker container on nodejsnet net
 
 1. What is the output of step 5 above, explain the error? ***(1 mark)*** __No proper output because failed to connect to localhost. This error occurs because the Node.js container is running on a separate network__.
 2. Show the instruction needed to make this work. ***(1 mark)***
-   __First, create a bridge network and connect the Node.js and MySQL containers. Next, restart the containers after connecting them to the common network to ensure the changes take effect__
+   __First, create a bridge network and connect the Node.js and MySQL containers. Next, restart the containers after connecting them to the common network and then run it.__
 
 ## What to submit
 
